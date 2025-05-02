@@ -1,4 +1,4 @@
-package sample.ox_for_junior.section3;
+package sample.ox_for_junior.section3.domain;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

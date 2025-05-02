@@ -1,4 +1,4 @@
-package sample.ox_for_junior.section3;
+package sample.ox_for_junior.section3.service.port;
 
 import org.springframework.stereotype.Repository;
 
