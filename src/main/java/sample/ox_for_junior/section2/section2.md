@@ -69,3 +69,4 @@ square.setHeight(10); !!--> Rectangle의 setHeight 사용 시, Square의 특성�
 
 #### 기타
 - 책 추천 : 리팩토링 2판 보다는 WORKIMG EFFECTIVELY WITH LEGACY CODE
+- CollectionUtils / StringUtils / ObjectUtils
