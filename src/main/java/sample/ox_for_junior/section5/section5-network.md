@@ -47,3 +47,20 @@ www.sub.helloworld.com(o)
     - 임의의 대칭키를 만들고, 서버의 public key로 대칭키를 암호화.
     - 암호화된 값을 서버로 전송, 서버는 이를 private 키로 복호화.
     - 서버-클라이언트는 세션키로 암호화 통신.
+
+#### 인프라 용어 정리
+- 온프레미스 vs 온디멘드
+  - 온프레미스
+    - 자체 전산실 서버에 직접 설치해 운영, 서비스를 전달하는 방식(전통)
+  - 온디멘드
+    - 수요가 필요한 즉시 바로 서비스를 전달할 수 있는 방식
+
+- 컨테이너는 Docker뿐 아니라, containerd 도 있다~
+
+- VPN(virtual private network)
+  - 개발자들이 외부에 있더라도 사내망에 접근할 때 많이 사용.
+  - ex) pulse secure, Forti client
+- VDI(virtual Desktop Infrastructure)
+  - VPN보다 보안 수준이 올라감.
+  - 가상화된 데스크탑에 원격으로 붙는 기술.
+  - ex) citrix
